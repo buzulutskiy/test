@@ -515,28 +515,44 @@ exports.deps = [
         "val": "xxl"
     },
     {
-        "block": "news"
+        "block": "section"
     },
     {
-        "block": "article-preview"
+        "block": "decorator",
+        "mod": "space-b",
+        "val": "xxl"
     },
     {
-        "block": "article-preview",
-        "mod": "height"
+        "block": "tpl-grid",
+        "mod": "col-gap",
+        "val": "half"
     },
     {
-        "block": "article-preview",
-        "mod": "height",
-        "val": "s"
+        "block": "tpl-grid",
+        "mod": "row-gap",
+        "val": "half"
     },
     {
-        "block": "component",
-        "mod": "whitepaper",
-        "val": "inverse"
+        "block": "tpl-grid",
+        "elem": "fraction",
+        "mod": "col",
+        "val": "12"
     },
     {
-        "block": "article-preview",
-        "elem": "footer-wrapper"
+        "block": "digital-item"
+    },
+    {
+        "block": "pt-card",
+        "mod": "view"
+    },
+    {
+        "block": "pt-card",
+        "mod": "view",
+        "val": "default"
+    },
+    {
+        "block": "digital-item",
+        "elem": "info"
     },
     {
         "block": "pt-card",
@@ -545,12 +561,48 @@ exports.deps = [
     {
         "block": "pt-card",
         "elem": "footer",
-        "mod": "space-a"
+        "mod": "align"
+    },
+    {
+        "block": "digital-item",
+        "elem": "wrap-video"
+    },
+    {
+        "block": "digital-item",
+        "elem": "icon-wrapper"
+    },
+    {
+        "block": "icon",
+        "mod": "name",
+        "val": "play"
+    },
+    {
+        "block": "icon",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "icon",
+        "mod": "view",
+        "val": "primary"
     },
     {
         "block": "text",
         "mod": "align",
         "val": "center"
+    },
+    {
+        "block": "decorator",
+        "mod": "space-b",
+        "val": "xxs"
+    },
+    {
+        "block": "digital-item",
+        "elem": "cover"
+    },
+    {
+        "block": "pt-card",
+        "elem": "content"
     },
     {
         "block": "pt-card",
@@ -562,9 +614,20 @@ exports.deps = [
         "mod": "size"
     },
     {
-        "block": "tpl-grid",
-        "mod": "col-gap",
-        "val": "half"
+        "block": "pt-card",
+        "elem": "footer",
+        "mod": "space-a"
+    },
+    {
+        "block": "digital-item",
+        "elem": "wrap"
+    },
+    {
+        "block": "article-preview"
+    },
+    {
+        "block": "article-preview",
+        "mod": "height"
     },
     {
         "block": "article-preview",
@@ -573,62 +636,52 @@ exports.deps = [
     },
     {
         "block": "article-preview",
-        "elem": "footer"
-    },
-    {
-        "block": "decorator",
-        "mod": "space-b",
-        "val": "xxs"
-    },
-    {
-        "block": "heading"
-    },
-    {
-        "block": "news",
-        "elem": "heading"
-    },
-    {
-        "block": "tpl-grid",
-        "elem": "fraction",
-        "mod": "col",
-        "val": "3"
-    },
-    {
-        "block": "instagram"
-    },
-    {
-        "block": "instagram",
         "elem": "footer-wrapper"
     },
     {
-        "block": "instagram",
+        "block": "article-preview",
         "elem": "footer"
     },
     {
-        "block": "pt-icon-plus",
-        "elem": "icon",
-        "mod": "indent-r"
+        "block": "comment"
     },
     {
-        "block": "avatar"
+        "block": "comment",
+        "elem": "content"
     },
     {
-        "block": "avatar",
-        "elem": "photo"
+        "block": "decorator",
+        "mod": "indent-a"
     },
     {
-        "block": "avatar",
-        "elem": "photo",
-        "mod": "size"
-    },
-    {
-        "block": "pt-icon-plus",
-        "elem": "block"
+        "block": "decorator",
+        "mod": "indent-a",
+        "val": "xxxl"
     },
     {
         "block": "decorator",
         "mod": "space-b",
         "val": "xs"
+    },
+    {
+        "block": "comment",
+        "elem": "link"
+    },
+    {
+        "block": "decorator",
+        "mod": "indent-a",
+        "val": "xxl"
+    },
+    {
+        "block": "comment",
+        "elem": "cover"
+    },
+    {
+        "block": "paging"
+    },
+    {
+        "block": "paging",
+        "elem": "circle"
     },
     {
         "block": "question"
@@ -640,7 +693,7 @@ exports.deps = [
     {
         "block": "question",
         "mod": "state",
-        "val": "close"
+        "val": "open"
     },
     {
         "block": "question",
@@ -651,114 +704,9 @@ exports.deps = [
         "elem": "paragraph"
     },
     {
-        "block": "tpl-layout",
-        "elem": "content"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "photo"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "photo",
-        "mod": "size"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "container"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "container",
-        "mod": "align"
-    },
-    {
-        "block": "tpl-layout",
-        "elem": "container",
-        "mod": "size",
-        "val": "xs"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "photo",
-        "mod": "size",
-        "val": "m"
-    },
-    {
-        "block": "social"
-    },
-    {
-        "block": "decorator",
-        "mod": "space-t",
-        "val": "xxxxxxl"
-    },
-    {
-        "block": "tpl-grid",
-        "elem": "fraction",
-        "mod": "col",
-        "val": "6"
-    },
-    {
-        "block": "article-preview",
-        "elem": "play"
-    },
-    {
-        "block": "pt-card",
-        "elem": "play"
-    },
-    {
-        "block": "link"
-    },
-    {
-        "block": "link",
-        "mod": "disabled"
-    },
-    {
-        "block": "jquery",
-        "elem": "event"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointerclick"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointernative"
-    },
-    {
-        "block": "keyboard",
-        "elem": "codes"
-    },
-    {
-        "block": "control"
-    },
-    {
         "block": "question",
-        "mod": "view"
-    },
-    {
-        "block": "question",
-        "mod": "view",
-        "val": "open"
-    },
-    {
-        "block": "pt-list"
-    },
-    {
-        "block": "paragraph"
-    },
-    {
-        "block": "tpl-layout",
-        "elem": "footer"
+        "mod": "state",
+        "val": "closed"
     },
     {
         "block": "loader",
@@ -869,8 +817,8 @@ exports.deps = [
     {
         "block": "pt-card",
         "elem": "footer",
-        "mod": "space-a",
-        "val": "xxl"
+        "mod": "align",
+        "val": "top"
     },
     {
         "block": "pt-card",
@@ -879,39 +827,9 @@ exports.deps = [
         "val": "cover"
     },
     {
-        "block": "pt-icon-plus",
-        "elem": "icon",
-        "mod": "indent-r",
-        "val": "s"
-    },
-    {
-        "block": "avatar",
-        "elem": "photo",
-        "mod": "size",
-        "val": "s"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "photo",
-        "mod": "size",
-        "val": "l"
-    },
-    {
-        "block": "pyrenees",
-        "elem": "container",
-        "mod": "align",
-        "val": "center"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointer"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointerpressrelease"
+        "block": "pt-card",
+        "elem": "footer",
+        "mod": "space-a",
+        "val": "xxl"
     }
 ];
